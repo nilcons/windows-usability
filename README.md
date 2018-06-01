@@ -9,6 +9,8 @@ Windows easily on GNU/Linux.
 
 ## Subtopics
 
+[usability](usability/): how to make Windows acceptable.
+
 [passthrough](passthrough/): for gaming (or other high graphics
 performance oriented tasks) it's now possible to pass through your
 graphics card directly to a running windows VM.  It's hard to setup
