@@ -1,5 +1,10 @@
 # Windows 10 licensing
 
+UPADTE (2020-06-27): most of the information below is still correct,
+but I also made a more detailed investigation and summary on the
+practicalities of cheap "ebay" licenses:
+[license-types-and-ebay.md](license-types-and-ebay.md)
+
 Windows 10 is free to download, but after 1-3 months of usage, you have
 to get a license and prove it to Microsoft servers over the internet.
 This process is called activation.
