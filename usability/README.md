@@ -19,12 +19,20 @@ Turn off "increase mouse precision" under advanced settings of the mouse.
 
 Enable Developer mode, wait for install.
 
-Then open powershell in admin mode and type: `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-`
+Then open powershell in admin mode and type: `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
 
-Then open Windows Store and install "Debian GNU/Linux".
+Installing Debian after the restart:
+
+```
+curl.exe -L -o debian.appx https://aka.ms/wsl-debian-gnulinux
+Add-AppxPackage debian.appx
+```
+
+Then once we have to run `Debian` from the start menu to initialize.
 
 Then you can run `bash` from the start menu.
+
+More info: https://learn.microsoft.com/en-us/windows/wsl/install-manual#downloading-distributions
 
 # Disable Windows Store stupidity
 
