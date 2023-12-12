@@ -38,3 +38,9 @@ In an admin cmd:
     powercfg.exe /hibernate off
 
 Page file: system -> settings -> advanced -> super advanced -> and somewhere there.
+
+# Bitlocker without TPM
+
+`gpedit.exe`, then local computer policy -> computer configuration -> administrative -> windows components -> bitlocker -> operating system drives -> require additional authentication at startup.
+
+Set require password checkbox and "do not allow TPM" at startup.
