@@ -4,6 +4,19 @@ Always install the latest version if you can, look into how to get a
 fresh ISO from Microsoft or from some website.  It's a lot easier than
 waiting for hours for Windows Update to finish!
 
+# BIOS time in UTC
+
+This is needed only if you are dual booting a GNU/Linux you want in
+UTC and a Windows.  Not needed for VMs.
+
+In an elevated powershell:
+
+```
+Set-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Control\TimeZoneInformation -Name RealTimeIsUniversal -Type QWORD -Value 1
+```
+
+Disable automatic time sync in the settings, Linux NTP is enough.
+
 # Caps Lock as Ctrl
 
     Windows Registry Editor Version 5.00
